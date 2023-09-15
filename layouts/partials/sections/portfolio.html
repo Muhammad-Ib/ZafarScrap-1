@@ -1,0 +1,15 @@
+<section class="section portfolio">
+  <div class="container">
+    {{ range .content }}
+    <div class="row portfolio-feature">
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+        <img src="{{ .image }}" alt="image">
+      </div>
+      <div class="col-12 col-xl-6 d-flex flex-column justify-content-center">
+          <h3 class="fs-1 fw-bold text-primary pb-3">{{ .heading }}</h3>
+          <p class="text-black-61 pb-3">{{ .para }}</p>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</section>

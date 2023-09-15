@@ -1,0 +1,91 @@
+baseURL: "https://www.example.com/"
+theme: "up-business-theme"
+languageCode: "en-us"
+
+title: "Zafar Scrape"
+
+# googleAnalytics: ""
+
+summaryLength: 20
+
+params:
+  title: "Zafar Scrape"
+  description: "Zafar Scrape is your trusted partner in responsible scrap management and recycling solutions."
+  images: 
+    - "/images/logo.png"
+
+  logo: "/images/logo.png"
+
+  favicons:
+    themeColor: "#FFFFFF"
+    backgroundColor: "#FFFFFF"
+    faviconColor: "#000000"
+
+  social:
+    dribbble: "#"
+    instagram: "#"
+    facebook: "#"
+    twitter: "#"
+
+  location:
+    - "United Arab Emirates"
+
+  contact:
+    - "zafaruae@ymail.com"
+    - "0556755256"
+    - "0554244966"
+
+  copyright: "© 2022 Zafar Scrape All Rights Reserved"
+
+menus:
+  main:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    # - name: "How we work"
+    #   url: "/#"
+    #   weight: 2
+
+    # - name: "Our team"
+    #   url: "/#"
+    #   weight: 3
+
+    # - name: "Pricing"
+    #   url: "/#"
+    #   weight: 4
+
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
+
+  # buttons:
+  #   - name: "Book a call"
+  #     url: "/#"
+  #     weight: 5
+  #     pre: "btn btn-primary text-light"
+
+  footer:
+    - name: "Home"
+      url: "/"
+      weight: 1
+
+    # - name: "How we work"
+    #   url: "/#"
+    #   weight: 2
+
+    # - name: "Our team"
+    #   url: "/#"
+    #   weight: 3
+
+    # - name: "Pricing"
+    #   url: "/#"
+    #   weight: 4
+
+    # - name: "Blog"
+    #   url: "/blog"
+    #   weight: 5
+
+taxonomies:
+  series: "series"
+  tags: "tags"
