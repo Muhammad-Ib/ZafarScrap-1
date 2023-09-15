@@ -12,9 +12,9 @@ params:
   title: "Zafar Scrape"
   description: "Zafar Scrape is your trusted partner in responsible scrap management and recycling solutions."
   images: 
-    - "/images/logo.png"
+    - "./images/logo.png"
 
-  logo: "/images/logo.png"
+  logo: "./images/logo.png"
 
   favicons:
     themeColor: "#FFFFFF"
