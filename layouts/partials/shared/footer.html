@@ -6,10 +6,10 @@
         <p class="small text-black-61">{{ .Site.Params.description }}</p>
         {{ with .Site.Params.social }}
         <ul class="d-flex justify-content-center justify-content-xl-start list-unstyled">
-          {{ with .dribbble }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/dribbble.html" }}</a></li>{{ end }}
-          {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }}
-          {{ with .facebook }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/facebook.html" }}</a></li>{{ end }}
-          {{ with .twitter }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" href="{{ . }}">{{ partial "icons/twitter.html" }}</a></li>{{ end }}
+          {{ with .tiktok }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/tiktok.html" }}</a></li>{{ end }}
+          {{ with .instagram }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/instagram.html" }}</a></li>{{ end }}
+          {{ with .facebook }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/facebook.html" }}</a></li>{{ end }}
+          {{ with .whatsapp }}<li class="rounded-circle bg-blue-63 me-2 p-2"><a class="d-flex align-items-center justify-content-center size-16" target="_blank" href="{{ . }}">{{ partial "icons/whatsapp.html" }}</a></li>{{ end }}
         </ul>
         {{ end }}
       </div>

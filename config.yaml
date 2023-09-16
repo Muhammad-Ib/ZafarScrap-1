@@ -22,10 +22,10 @@ params:
     faviconColor: "#000000"
 
   social:
-    dribbble: "#"
-    instagram: "#"
-    facebook: "#"
-    twitter: "#"
+    tiktok: "https://www.tiktok.com/@mr.usmanzafar?_t=8fiWe7MiWp7&_r=1"
+    instagram: "https://instagram.com/mr.usmanzafar_?igshid=NzZlODBkYWE4Ng=="
+    facebook: "https://www.facebook.com/profile.php?id=100014737745386&mibextid=ZbWKwL"
+    whatsapp: "https://wa.me/+971556755256"
 
   location:
     - "United Arab Emirates"
