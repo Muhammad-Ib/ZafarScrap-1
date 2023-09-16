@@ -2,15 +2,15 @@ baseURL: "https://www.example.com/"
 theme: "up-business-theme"
 languageCode: "en-us"
 
-title: "Zafar Scrape"
+title: "Zafar Scrap"
 
 # googleAnalytics: ""
 
 summaryLength: 20
 
 params:
-  title: "Zafar Scrape"
-  description: "Zafar Scrape is your trusted partner in responsible scrap management and recycling solutions."
+  title: "Zafar Scrap"
+  description: "Zafar Scrap is your trusted partner in responsible Scrap management and recycling solutions."
   images: 
     - "./images/logo.png"
 
@@ -35,7 +35,7 @@ params:
     - "0556755256"
     - "0554244966"
 
-  copyright: "© 2022 Zafar Scrape All Rights Reserved"
+  copyright: "© 2022 Zafar Scrap All Rights Reserved"
 
 menus:
   main:

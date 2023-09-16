@@ -5,7 +5,7 @@ title = "Home"
 enable = true
 image = "/images/card.jpeg"
 heading = "Welcome to Zafar Scrap Company."
-para = "Zafar Scrape is a leading scrap and recycling company dedicated to sustainable waste management solutions. With a commitment to environmental responsibility and resource conservation, ScrapEco specializes in the collection, processing, and recycling of various materials, including metals, plastics, paper, and electronics."
+para = "Zafar Scrap is a leading Scrap and recycling company dedicated to sustainable waste management solutions. With a commitment to environmental responsibility and resource conservation, Zafar Scrap specializes in the collection, processing, and recycling of various materials, including metals, plastics, paper, and electronics."
 
 [first_box]
 enable = true
