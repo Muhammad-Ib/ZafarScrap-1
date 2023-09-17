@@ -39,6 +39,12 @@
         {{ range .Site.Params.contact }}
           <p class="small text-black-61 mb-1">{{ . }}</p>
         {{ end }}
+        {{ range .Site.Params.number }}
+            <li class="d-flex justify-content-center justify-content-xl-start mb-2">
+              <div class="d-flex align-items-center text-primary">{{ partial "icons/whatsapp.html" }}</div>
+              <p class="small text-black-61 m-0 ps-2">{{ . }}</p>
+            </li>
+          {{ end }}
       </div>
     </div>
     <div class="row">
